@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4ade80;stop-opacity:1" /> <!-- Green-400 -->
+      <stop offset="100%" style="stop-color:#16a34a;stop-opacity:1" /> <!-- Green-600 -->
+    </linearGradient>
+  </defs>
+  
+  <!-- Outer Organic Shape (Leaf/Neural hybrid) -->
+  <path fill="url(#grad1)" d="M128,24 C180,24 232,76 232,128 C232,180 180,232 128,232 C76,232 24,180 24,128 C24,76 76,24 128,24 Z M128,48 C88,48 48,88 48,128 C48,168 88,208 128,208 C168,208 208,168 208,128 C208,88 168,48 128,48 Z" />
+  
+  <!-- Center Logic/Circuit Node -->
+  <circle cx="128" cy="128" r="32" fill="#15803d" /> <!-- Green-700 -->
+  <circle cx="128" cy="128" r="24" fill="#ffffff" opacity="0.2" />
+  
+  <!-- Connections -->
+  <path stroke="#15803d" stroke-width="8" stroke-linecap="round" d="M128,88 L128,64 M128,168 L128,192 M88,128 L64,128 M168,128 L192,128 M100,100 L84,84 M156,156 L172,172 M100,156 L84,172 M156,100 L172,84" />
+</svg>
